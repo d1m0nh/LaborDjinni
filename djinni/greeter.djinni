@@ -1,0 +1,4 @@
+greeter = interface +c {
+	static create_greeter() : greeter;
+	welcomeFromCpp() : string;
+}
